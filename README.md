@@ -58,3 +58,14 @@ On cloud providers that support load balancers, an external IP address would be 
 ```
 minikube service hello-node
 ```
+
+## Clean up
+
+```
+kubectl delete service hello-node
+kubectl delete deployment hello-node
+
+minikube stop
+minikube delete
+```
+
