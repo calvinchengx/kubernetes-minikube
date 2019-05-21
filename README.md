@@ -1,6 +1,17 @@
 # Docker and Kubernetes with minikube
 
+Getting familiar with using Docker in the context of Kubernetes with minikube.
+
+## Prerequisites
+
 ```
+brew cask install minikube
+```
+
+## Using this repo to practise
+
+```
+git clone https://github.com/calvinchengx/kubernetes-minikube
 cd minikube
 
 # build our test hello-node image
